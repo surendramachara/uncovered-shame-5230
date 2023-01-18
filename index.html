@@ -4,10 +4,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ComeShope
-    </title>
+    <title>ComeShope</title>
+
+    <style>
+ 
+        #nav-1 {
+           display: flex;
+           justify-content: space-between;
+           
+        }
+        #nav-1 > div:nth-child(1) {
+            display: flex;
+            width:40%;
+            align-items: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           font-size: 30px;
+           font-style: italic;
+        }
+
+        span {
+            color:dodgerblue
+        }
+
+        #nav-1 > div:nth-child(1) > img {
+        height: 30px;
+        }
+       
+        #imgs  {
+           width:60%;
+           display: flex;
+           align-items: center;
+        }
+        
+        #imgs > button {
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            padding:20px;
+            width:25%;
+         
+        }
+      #imgs > button > img {
+
+          padding:0%;
+          height:25px;
+          margin:0px 20px
+          
+      }
+
+      #inp {
+        display: flex;
+        align-items: center;
+        border:1px solid black
+      }
+       #imgs > div > input {
+        font-size: 20px;
+        padding:20px;
+        border: 0px;
+       
+       }
+
+       #imgs > div > img {
+        height:30px ;
+        padding-left: 20px;
+       }
+
+       #second-part {
+        display: flex;
+        width:100%;
+        justify-content: space-evenly;
+      
+       }
+
+       #second-part > h1 {
+       font-family:sans-serif
+       }
+
+ 
+       #threed-part {
+        display: flex;
+        background-color: rgb(29, 28, 28);
+        width:100%;
+        align-items: center;
+       }
+
+       #threed-part > div {
+        color:white;
+        width:33%;
+        text-align: center;
+        line-height: 10px;
+       }
+
+       </style>
+
+
 </head>
 <body>
-    
+    <div id="nav-1">
+        <div>  
+           <h1>Come <span>Shope</span> </h1>
+        </div>
+        <div id="imgs">
+            <div id="inp">
+                <img src="images/search logo.png" alt="">
+            <input  type="search" placeholder="Search">
+
+            </div>
+            
+            <button> <img  src="images/gps.png" alt=""> Choose a Store</button>
+            <button> <img   src="images/avatar.png" alt=""> Account</button>
+            <button> <img src="images/bag.jfif" alt=""> Bag</button>
+        </div>
+     </div>
+
+     <div id="second-part">
+        <h1>New Arrivals</h1>
+        <h1>Men</h1>
+        <h1>Women</h1>
+        <h1>Boys</h1>
+        <h1>Girls</h1>
+        <h1>Clothing</h1>
+        <h1>Accessories</h1>
+        <h1>Sale</h1>
+        <h1>Brands </h1>
+        <h1>Releases</h1>
+     </div>
+
+     <div id="threed-part">
+        <div> <h1> < </h1> </div>
+        <div>
+            <h2>BOOST YOUR STATUS</h2>
+            <h3>Stay in the loop for releaases, shipping promotions,and more</h3>
+            <h4>Join for Free or Sign In </h4>
+            
+        </div>
+        <div> <h1> > </h1></div>
+     </div>
 </body>
 </html>
