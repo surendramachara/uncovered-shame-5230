@@ -1,0 +1,168 @@
+
+ 
+#nav-1 {
+   display: flex;
+   justify-content: space-between;
+   
+}
+#nav-1 > div:nth-child(1) {
+    display: flex;
+    width:40%;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 30px;
+   font-style: italic;
+}
+
+span {
+    color:dodgerblue
+}
+
+#nav-1 > div:nth-child(1) > img {
+height: 30px;
+}
+
+#imgs  {
+   width:60%;
+   display: flex;
+   align-items: center;
+}
+
+#imgs > button {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding:20px;
+    width:25%;
+ 
+}
+#imgs > button > img {
+
+  padding:0%;
+  height:25px;
+  margin:0px 20px
+  
+}
+
+#inp {
+display: flex;
+align-items: center;
+border:1px solid black
+}
+#imgs > div > input {
+font-size: 20px;
+padding:20px;
+border: 0px;
+
+}
+
+#imgs > div > img {
+height:30px ;
+padding-left: 20px;
+}
+
+#second-part {
+display: flex;
+width:100%;
+justify-content: space-evenly;
+
+}
+
+#second-part > h1 {
+font-family:sans-serif
+}
+
+
+#threed-part {
+display: flex;
+background-color: rgb(29, 28, 28);
+width:100%;
+align-items: center;
+}
+
+#threed-part > div {
+color:white;
+width:33%;
+text-align: center;
+line-height: 10px;
+}
+
+#fourpart  {
+    background-color:antiquewhite ;
+    text-align: center;
+    padding:70px 0px;
+    margin:20px;
+   }
+
+#fourpart  > div > img {
+  width:100%;
+}
+
+
+
+#fourpart > div {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px ;
+    
+}
+
+#fourpart  > div > button {
+    font-size: 25px;
+    width:30%;
+    height:10%;
+   margin:auto;
+   color:white;
+   background-color: black;
+   
+  }
+
+#fivepart {
+    text-align:center;
+}
+
+#fivepart > div {
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+    font-size: 25px;
+    width:80%;
+    gap:10px;
+    margin:auto;
+}
+
+
+#sixpart {
+    margin:50px 0px;
+    text-align:center;
+}
+
+#sixpart > div {
+ display:grid;
+ grid-template-columns: repeat(4,1fr);
+ gap:40px 30px;
+ width:90%;
+ margin:auto;
+}
+
+#sevenpart  {
+    display: flex;
+    
+    gap:40px;
+    justify-content: space-between;
+    align-items: center;
+    margin:50px 0px;
+}
+
+#sevenpart > div:nth-child(2) >  img {
+    width:8%
+}
+
+#sevenpart > div:nth-child(2) {
+   
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+
