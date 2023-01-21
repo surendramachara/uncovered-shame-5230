@@ -1,0 +1,119 @@
+#acNav {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border:1px solid white;
+}
+
+span {
+    color:dodgerblue;
+}
+
+ /* part two */
+
+ #singin {
+   
+   text-align: center;
+   margin:5vh;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style:inherit;
+ }
+#inp {
+   
+    width:30%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#inp > input  {
+    font-size: 25px;
+    padding:10px;
+    margin:10px 0px;
+
+} 
+
+#inp > button {
+    font-size: 20px;
+    background-color: aqua;
+    color: black;
+    border:none;
+    padding:20px 10px ;
+    margin: 20px 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#inp > p {
+    font-size: 20px;
+    color:black;
+}
+
+#inp > p > a {
+ font-size: 20px ;
+ color:black;
+}
+
+#inp > h3 > a {
+    color:black;
+    font-style: unset;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+
+/* four part */
+
+#four {
+    width:30%;
+    margin:auto;
+    border:1px solid red;
+    text-align: center;
+   padding:40px 0px
+}
+
+#four > img {
+    width:20%;
+}
+
+#four > h1 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ #four > p > span {
+    display: block;
+    font-size: 25px;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#four > p {
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+    margin:10px;
+  
+    
+}
+
+#four > a {
+    color:black;
+    font-size: 25px ;
+
+    padding: 20px;
+}
+
+#four > button {
+    display: block;
+
+    font-size: 20px;
+    margin:auto;
+   color:black;
+   background-color: white ;
+   padding:15px 150px
+}
