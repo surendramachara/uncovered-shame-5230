@@ -1,0 +1,19 @@
+#nav div:nth-child(1) {
+     font-size: 30px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     padding:20px;
+     text-align: center;
+    cursor: pointer;
+    border:1px solid red;
+    margin:20px;
+}
+#popup {
+   background-color: white;
+   margin:-50px;
+   font-size: 40px;
+   border:1px solid red;
+
+
+}
+
+

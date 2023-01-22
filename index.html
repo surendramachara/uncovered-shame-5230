@@ -7,7 +7,7 @@
     <title>ComeShope</title>
 
    <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="script.js">
+  
    
 
 </head>
@@ -22,10 +22,11 @@
             <input  type="search" placeholder="Search">
 
             </div>
-           
+            <!-- <a href="account.html" target="_blank"> -->
             <button> <img  src="images/gps.png" alt=""> Choose a Store</button>
-            <button id="account"> <a href="account.html" target="_blank"> <img   src="images/avatar.png" alt=""> Account </a> </button>
+            <button id="account" onmouseenter="enter()" >  <img   src="images/avatar.png" alt=""> Account </a> </button>
             <button> <img src="images/bag.jfif" alt=""> Bag</button>
+            
         </div>
      </div>
 
@@ -170,10 +171,25 @@
             <a href=""> Recent Releases</a>
           </div>
        </div>
+    <!-- pup-up -->
+       <div id="pop-up" onmouseleave="exit()" >
+        <a href="account.html"> Sign In</a>
+        <a href=""> Register</a>
+        <a href="">STATUS</a>
+        <a href=""> Favorites</a>
+    </div>
+  
 
+    
 
+    
 </body>
 </html>
+
+
+
+<script src="script.js"></script>
+
 
 
 
