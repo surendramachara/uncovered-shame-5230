@@ -1,7 +1,12 @@
-let mybutton = document.querySelector("account")
 
-mybutton.addEventListener("click",account()) 
+let popup = document.getElementById("pop-up")
+let atr = document.getElementsByTagName("a")
+function enter(){
+    popup.style.visibility="visible"
 
-function account() {
-    alert("sin in")
+}
+function exit() {
+
+  popup.style.visibility="hidden"
+ 
 }
